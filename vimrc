@@ -86,3 +86,6 @@ inoremap jj <ESC>
 " NERDTree
 " toggle nerd tree with ctrl+n
 map <C-n> :NERDTreeToggle<CR>
+
+" FZF
+set rtp+=~/.fzf

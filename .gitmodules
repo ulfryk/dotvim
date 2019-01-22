@@ -25,3 +25,6 @@
 [submodule "pack/js/start/haskell-vim"]
 	path = pack/js/start/haskell-vim
 	url = git@github.com:neovimhaskell/haskell-vim.git
+[submodule "pack/js/start/fzf.vim"]
+	path = pack/js/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
