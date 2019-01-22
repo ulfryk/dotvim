@@ -1,12 +1,12 @@
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
- 
+
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
 filetype plugin indent on
- 
+
 " Enable syntax highlighting
 syntax on
 
@@ -71,5 +71,18 @@ set expandtab
 "set shiftwidth=4
 "set tabstop=4
 
-" Mappngs
+" Show white spaces
+set list
+set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
+
+hi Whitespace ctermfg=LightGray
+match Whitespace /\(\s\|\n\|\t\)/
+
+" === === === Mappngs === === ===
 inoremap jj <ESC>
+
+" === === === Plugins === === ===
+
+" NERDTree
+" toggle nerd tree with ctrl+n
+map <C-n> :NERDTreeToggle<CR>
