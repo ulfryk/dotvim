@@ -9,7 +9,15 @@ git submodule init
 git submodule update
 ```
 
-to update all plugins
+To update all plugins:
 ```
 git submodule foreach git pull origin master
 ```
+
+## TypeScript
+
+For TS related plugins: `npm install -g clausreinke/typescript-tools typescript`
+
+## TODO:
+
+- consider adding [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)

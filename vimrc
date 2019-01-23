@@ -74,12 +74,21 @@ set expandtab
 " Show white spaces
 set list
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
-
 hi Whitespace ctermfg=LightGray
 match Whitespace /\(\s\|\n\|\t\)/
 
+" Open new split panes to right and bottom, which feels more natural than Vim’s default:
+set splitbelow
+set splitright
+
 " === === === Mappngs === === ===
 inoremap jj <ESC>
+
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
 
 " === === === Plugins === === ===
 
