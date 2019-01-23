@@ -4,12 +4,6 @@
 [submodule "pack/js/start/typescript-vim"]
 	path = pack/js/start/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
-[submodule "pack/js/start/vim-javascript"]
-	path = pack/js/start/vim-javascript
-	url = git@github.com:pangloss/vim-javascript.git
-[submodule "pack/js/start/vim-jsx"]
-	path = pack/js/start/vim-jsx
-	url = git@github.com:mxw/vim-jsx.git
 [submodule "pack/js/start/nerdtree"]
 	path = pack/js/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
@@ -28,3 +22,6 @@
 [submodule "pack/js/start/fzf.vim"]
 	path = pack/js/start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/js/start/vim-javascript"]
+	path = pack/js/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
