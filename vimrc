@@ -77,6 +77,11 @@ set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:�
 hi Whitespace ctermfg=LightGray
 match Whitespace /\(\s\|\n\|\t\)/
 
+" Higlight cursor line
+set cursorline
+hi CursorLine ctermbg=15 ctermfg=NONE cterm=NONE term=NONE
+hi CursorLineNr ctermbg=15
+
 " Open new split panes to right and bottom, which feels more natural than Vim’s default:
 set splitbelow
 set splitright
