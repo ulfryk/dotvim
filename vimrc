@@ -95,6 +95,9 @@ nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
+" Use gb to switch between buffers
+nnoremap gb :ls<CR>:b<Space>
+
 " === === === Plugins === === ===
 
 " NERDTree

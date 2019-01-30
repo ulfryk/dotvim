@@ -25,3 +25,6 @@
 [submodule "pack/js/start/vim-javascript"]
 	path = pack/js/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/js/start/kotlin-vim"]
+	path = pack/js/start/kotlin-vim
+	url = git@github.com:udalov/kotlin-vim.git
