@@ -86,8 +86,9 @@ hi CursorLineNr ctermbg=15
 set splitbelow
 set splitright
 
-" === === === Mappngs === === ===
+" === === === Mappings === === ===
 inoremap jj <ESC>
+nnoremap <Leader>e :Explore<CR>
 
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
@@ -100,6 +101,8 @@ nnoremap gb :ls<CR>:b<Space>
 
 " === === === Plugins === === ===
 
+" netrw
+let g:netrw_liststyle = 3
 " NERDTree
 " toggle nerd tree with ctrl+n
 map <C-n> :NERDTreeToggle<CR>
