@@ -87,7 +87,6 @@ set splitbelow
 set splitright
 
 " === === === Mappings === === ===
-inoremap jj <ESC>
 nnoremap <Leader>e :Explore<CR>
 
 " Use ctrl-[hjkl] to select the active split!
@@ -105,7 +104,7 @@ nnoremap gb :ls<CR>:b<Space>
 let g:netrw_liststyle = 3
 " NERDTree
 " toggle nerd tree with ctrl+n
-map <C-n> :NERDTreeToggle<CR>
+" map <C-n> :NERDTreeToggle<CR>
 
 " FZF
 set rtp+=~/.fzf
